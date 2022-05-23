@@ -1,3 +1,3 @@
-# Repository Template-Basic
+# ROS Utilities
 
-Can be used with `gh repo create trackdocs/some-repo --private --disable-wiki --template trackdocs/template-basic`
+Tool collection for ROS projects, targeting ROS2 Humble
