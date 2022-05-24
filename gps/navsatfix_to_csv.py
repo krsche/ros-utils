@@ -33,6 +33,7 @@ def main():
         data.append({'lat': msg.latitude, 'lon': msg.longitude})
 
     with open(csvfile_path, 'w') as csv:
+        csv.write("latitude,longitude\n")
         for entry in data:
             csv.write("{},{}\n".format(
                 str(entry['lat']),
